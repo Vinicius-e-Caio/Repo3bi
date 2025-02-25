@@ -1,5 +1,4 @@
-
-div {
+.biscoito {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -8,5 +7,3 @@ div {
     width: 100px; height: 100px;
   }
 }
-
-
