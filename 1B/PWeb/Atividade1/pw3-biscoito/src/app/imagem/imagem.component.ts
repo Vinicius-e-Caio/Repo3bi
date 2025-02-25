@@ -7,13 +7,13 @@ import { Component } from '@angular/core';
   styleUrl: './imagem.component.css'
 })
 export class ImagemComponent {
-  bixxcoite = "/biscoito.png"
+  biscoito = "/biscoito.png"
 
   change() {
-    if (this.bixxcoite == "/biscoito.png") {
-      this.bixxcoite = "/biscoito-aberto.png"
+    if (this.biscoito == "/biscoito.png") {
+      this.biscoito = "/biscoito-aberto.png"
     } else {
-      this.bixxcoite = "/biscoito.png"
+      this.biscoito = "/biscoito.png"
     }
   }
 }
