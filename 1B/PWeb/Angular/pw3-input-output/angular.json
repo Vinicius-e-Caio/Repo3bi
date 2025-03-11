@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pw3-biscoito": {
+    "pw3-input-output": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/pw3-biscoito",
+            "outputPath": "dist/pw3-input-output",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "pw3-biscoito:build:production"
+              "buildTarget": "pw3-input-output:build:production"
             },
             "development": {
-              "buildTarget": "pw3-biscoito:build:development"
+              "buildTarget": "pw3-input-output:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -92,8 +92,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "analytics": false
   }
 }
