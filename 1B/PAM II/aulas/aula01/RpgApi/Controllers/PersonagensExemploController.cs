@@ -24,10 +24,88 @@ namespace RpgApi.Controllers
 
 
         };
-                    public IActionResult GetFirst()
-            {
-                Personagem p = personagens[0];
-                return Ok(p);
-            }
+        [HttpGet("Get")]
+        public IActionResult GetFirst()
+        {
+            Personagem p = personagens[0];
+            return Ok(p);
+        }
+        
+        [HttpGet("GetAll")]
+        public IActionResult Get()
+        {
+            return Ok(personagens);
+        }
+        
+        [HttpGet("{id}")]
+        public IActionResult GetSingle(int id)
+        {
+            return Ok(personagens.FirstOrDefault(pe => pe.Id == id));
+        }
+
+        [HttpPost]
+        public IActionResult AddPersonagem(Personagem novoPersonagem)
+        {
+            personagens.Add(novoPersonagem);
+            return Ok(personagens);
+        }
+
+        [HttpGet("GetOrdenado")] 
+        public IActionResult GetOrdem() 
+        { 
+            List<Personagem> listaFinal = personagens.OrderBy (p => p. Forca).ToList(); 
+            return Ok(listaFinal); 
+        }
+
+        [HttpGet("GetContagem")] 
+        public IActionResult GetQuantidade() 
+        { 
+            return Ok("Quantidade de personagens: + personagens.Count"); 
+        }
+
+        [HttpGet("GetSomaForca")] 
+        public ActionResult GetSomaForca() 
+        { 
+            return Ok(personagens. Sum(p => p.Forca)); 
+        } 
+
+        [HttpGet("GetSemCavaleiro")] 
+        public IActionResult GetSemCavaleiro() 
+        { 
+            List<Personagem> listaBusca personagens.FindAll(p => p.Classe != Classe Enum.Cavaleiro); 
+            return Ok(listaBusca); 
+        } 
+
+        [HttpGet("GetByNomeAproximado/{nome}")] 
+        public IActionResult GetByNomeAproximado(string nome) 
+        { 
+            List<Personagem> listaBusca = personagens. FindAll(p => p. Nome.Contains (nome)); 
+            return Ok(listaBusca); 
+        }
+
+        [HttpGet("GetRemovendoMago")] 
+        public ActionResult GetRemovendoMagos() 
+        { 
+            Personagem pRemove = personagens.Find(p => p.Classe == Classe Enum.Mago); 
+            personagens. Remove (pRemove); 
+            return Ok("Personagem removido: " + pRemove.Nome); 
+        }
+
+        [HttpGet("GetByForca/{forca}")] 
+        public IActionResult Get(int forca) 
+        { 
+            List<Personagem> listaFinal = personagens. FindAll(p => p.Forca == forca); 
+            return Ok(listaFinal); 
+        } 
+
+        [HttpPost]
+        public IActionResult AddPersonagem(Personagem novoPersonagem)
+        {
+            if (novoPersonagem.Inteligencia == 0)
+                return BadRequest("Inteligência não pode ter o valor igual a 0 (zerro).");
+            personagens.Add(novoPersonagem);
+            return Ok(personagens);
+
+        }
     }
 }

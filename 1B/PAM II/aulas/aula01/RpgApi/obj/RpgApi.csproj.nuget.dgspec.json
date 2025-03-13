@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CaioeVini3BI\\Repo3bi\\1B\\PAM II\\aulas\\aula01\\RpgApi\\RpgApi.csproj": {}
+    "D:\\Repo3bi\\1B\\Wormhole 87K53X\\aulas\\aula01\\RpgApi\\RpgApi.csproj": {}
   },
   "projects": {
-    "D:\\CaioeVini3BI\\Repo3bi\\1B\\PAM II\\aulas\\aula01\\RpgApi\\RpgApi.csproj": {
+    "D:\\Repo3bi\\1B\\Wormhole 87K53X\\aulas\\aula01\\RpgApi\\RpgApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CaioeVini3BI\\Repo3bi\\1B\\PAM II\\aulas\\aula01\\RpgApi\\RpgApi.csproj",
+        "projectUniqueName": "D:\\Repo3bi\\1B\\Wormhole 87K53X\\aulas\\aula01\\RpgApi\\RpgApi.csproj",
         "projectName": "RpgApi",
-        "projectPath": "D:\\CaioeVini3BI\\Repo3bi\\1B\\PAM II\\aulas\\aula01\\RpgApi\\RpgApi.csproj",
+        "projectPath": "D:\\Repo3bi\\1B\\Wormhole 87K53X\\aulas\\aula01\\RpgApi\\RpgApi.csproj",
         "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-        "outputPath": "D:\\CaioeVini3BI\\Repo3bi\\1B\\PAM II\\aulas\\aula01\\RpgApi\\obj\\",
+        "outputPath": "D:\\Repo3bi\\1B\\Wormhole 87K53X\\aulas\\aula01\\RpgApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
