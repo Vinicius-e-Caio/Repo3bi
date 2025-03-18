@@ -2,3 +2,8 @@
                    [texto] = "'Sem criatividade para elaborar um texto'"
                    [clip]="true"
 ></app-text-overflow>
+
+<app-aleatorio [min]=2 [max]=10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  (resultado) = "processar($event)">
+</app-aleatorio>
+{{resultado}}
