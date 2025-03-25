@@ -2,7 +2,7 @@
 Vinicius de Jesus - 231116 -->
 
 <div class="wrapper">
-    <app-frases [ativo]="isActive"></app-frases>
+    <app-frases [frase]="phraseSelected" [ativo]="isActive"></app-frases>
     <app-imagem [biscoito]="biscoito"></app-imagem>
     <app-botao (messageEvent)="abrirBiscoito($event)"></app-botao>
 </div>
