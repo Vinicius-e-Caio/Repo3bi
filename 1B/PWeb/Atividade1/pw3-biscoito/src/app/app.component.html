@@ -1,2 +1,8 @@
-<app-imagem></app-imagem>
-<app-frases [newPhrase]="'My God'"></app-frases>
+<!-- Caio Bernardo - 231130
+Vinicius de Jesus - 231116 -->
+
+<div class="wrapper">
+    <app-frases [ativo]="isActive"></app-frases>
+    <app-imagem [biscoito]="biscoito"></app-imagem>
+    <app-botao (messageEvent)="abrirBiscoito($event)"></app-botao>
+</div>

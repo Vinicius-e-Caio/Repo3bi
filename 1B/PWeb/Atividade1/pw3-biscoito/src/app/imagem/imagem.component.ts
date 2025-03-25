@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-imagem',
@@ -7,13 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './imagem.component.css'
 })
 export class ImagemComponent {
-  biscoito = "/biscoito.png"
-
-  change() {
-    if (this.biscoito == "/biscoito.png") {
-      this.biscoito = "/biscoito-aberto.png"
-    } else {
-      this.biscoito = "/biscoito.png"
-    }
-  }
+  @Input() biscoito: string = "/biscoito.png";
 }
