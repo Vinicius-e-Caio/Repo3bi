@@ -1,8 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
+import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+
 
 @Component({
   selector: 'app-vini',
-  imports: [],
+  imports: [MatCardModule, MatButtonModule],
   templateUrl: './vini.component.html',
   styleUrl: './vini.component.css'
 })
