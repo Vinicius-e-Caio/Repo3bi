@@ -2,6 +2,10 @@
     margin-top: 20px;
     display: grid;
     place-items: center;
+<<<<<<< HEAD
+=======
+    align-items: space-between;
+>>>>>>> ca8f2d4a9f769a740689384c2b31913a41f078cf
   }
 .example-card {
     max-width: 400px;
@@ -10,5 +14,9 @@
   .example-header-image {
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
+<<<<<<< HEAD
   }
+=======
+  } 
+>>>>>>> ca8f2d4a9f769a740689384c2b31913a41f078cf
   

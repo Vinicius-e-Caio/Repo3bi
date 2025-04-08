@@ -11,7 +11,5 @@ import {MatChipsModule} from '@angular/material/chips';
   styleUrl: './caio.component.css'
 })
 export class CaioComponent {
-  longText = `The Chihuahua is a Mexican breed of toy dog. It is named for the
-  Mexican state of Chihuahua and is among the smallest of all dog breeds. It is
-  usually kept as a companion animal or for showing.`;
-}
+  longText = `[...] foi no final do nono ano que, "por acaso", descobri a programação e conheci a ETEC. A partir daí, comecei minha jornada no mundo do desenvolvimento de sistemas.`;
+} 
