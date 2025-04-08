@@ -1,0 +1,15 @@
+#wrapper {
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+    align-items: space-between;
+  }
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  } 
+  
