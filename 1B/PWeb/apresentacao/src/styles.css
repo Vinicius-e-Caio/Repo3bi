@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+    background: -webkit-linear-gradient(90deg, #d645d6,#902cb8,#730099);
+    background: linear-gradient(90deg, #d645d6,#902cb8,#730099);
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
