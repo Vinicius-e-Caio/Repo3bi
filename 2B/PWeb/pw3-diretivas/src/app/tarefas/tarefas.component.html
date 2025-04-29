@@ -1,0 +1,14 @@
+@if (Temp) {
+  <button (click)="showThis()">Mostrar apenas concluídos</button>
+  @for (item of tarefas; track item.id) {
+    <li>{{item.id}} - {{item.title}} {{item.finished}}</li>
+  }
+
+} @else {
+  <button (click)="showThis()">Mostrar tudo</button>
+  @for (item of tarefas; track item.id) {
+    @if (item.finished != "") {
+      <li>{{item.id}} - {{item.title}} {{item.finished}}</li>
+    }
+  }
+}
