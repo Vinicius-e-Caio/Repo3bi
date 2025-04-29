@@ -1,4 +1,4 @@
-@if (Temp) {
+<!-- @if (Temp) {
   <button (click)="showThis()">Mostrar apenas concluídos</button>
   @for (item of tarefas; track item.id) {
     <li>{{item.id}} - {{item.title}} {{item.finished}}</li>
@@ -10,5 +10,14 @@
     @if (item.finished != "") {
       <li>{{item.id}} - {{item.title}} {{item.finished}}</li>
     }
+  }
+} -->
+
+
+<button class="glow-on-hover" type="button" (click)="onExibirTudo()">{{exibirTudo ? 'Mostrar apenas concluídas' : 'Mostrar tudo'}}</button>
+
+@for (item of tarefas; track item.id) {
+  @if (exibirTudo || item.concluida) {
+    <p>{{item.id}} - {{item.nome}} <span>{{item.concluida ? "✅" : ""}}</span></p>
   }
 }
