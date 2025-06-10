@@ -1,0 +1,18 @@
+.form-cadastro{
+    max-width: 40%;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #A6A6A6;
+    padding: 20px;
+    border-radius: 15px;
+}
+.logo{
+    width: 300px;
+    height: 120px;
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}

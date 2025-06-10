@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Pulang;
+  src: url(/public/Pulang.ttf);
+}
+
+.titulo, .conteudo {
+  font-family: Pulang;
+}
+
+.titulo {
+  margin: 5px;
+}
+
+.conteudo {
+  margin: 5px;
+}
