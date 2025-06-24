@@ -37,11 +37,9 @@
 
 <h3 class="list-registers">Lista de Registros</h3>
     <ul class="list-group list">
-        <li class="list-group-item">
-            @for (item of dados; track item) {
-                <span>{{ item.nome }} - {{ item.idade }}</span>
-                <button class="btn btn-primary m-3" (click)="editar(item)">Editar</button>
-                <button class="btn btn-primary" (click)="excluir(item)">Excluir</button>
-            }
+        <li class="list-group-item" *ngFor="let item of dados; let i = index">
+                <span>{{ item.nome }} - {{ item.idade }} Anos</span>
+                <button class="btn btn-primary m-3" (click)="editar(i)">Editar</button>
+                <button class="btn btn-primary" (click)="excluir(i)">Excluir</button>
         </li>
     </ul>

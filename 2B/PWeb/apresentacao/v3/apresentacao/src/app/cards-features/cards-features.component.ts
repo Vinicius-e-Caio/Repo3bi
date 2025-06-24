@@ -3,9 +3,10 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatCardModule} from '@angular/material/card';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatButtonModule} from '@angular/material/button';
+import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-cards-features',
-  imports: [MatCardModule, MatChipsModule, MatProgressBarModule, MatButtonModule],
+  imports: [MatCardModule, MatChipsModule, MatProgressBarModule, MatButtonModule, RouterLink],
   templateUrl: './cards-features.component.html',
   styleUrl: './cards-features.component.css'
 })
