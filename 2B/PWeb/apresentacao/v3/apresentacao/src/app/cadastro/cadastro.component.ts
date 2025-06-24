@@ -29,9 +29,8 @@ export class CadastroComponent {
       const name = this.form.get('nome')?.value;
       const sobrenome = this.form.get('sobrenome')?.value;
       const email = this.form.get('email')?.value;
-      const senha = this.form.get('senha')?.value;
 
-
+      alert(`Cadastro realizado com sucesso!\nNome: ${name}\nSobrenome: ${sobrenome}\nEmail: ${email}`);
     }
   }
 
