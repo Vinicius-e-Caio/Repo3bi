@@ -1,0 +1,10 @@
+.about-container {
+  background-color: #ffffff;
+  border: 1px solid #eee;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+  padding-left: 0;
+}

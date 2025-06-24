@@ -1,45 +1,59 @@
-<form [formGroup]="form" class="form-signin" (ngSubmit)="onSubmit()">
-    <label for="nome" class="sr-only">Nome:</label>
-    <input type="text" formControlName="nome" id="nome" class="form-control"/>
-    <div>
-        @if (form.get('nome')?.invalid && form.get('nome')?.touched) {
-            <small>
-                @if (form.get('nome')?.hasError('required')) {
-                    <p class="error">O nome é obrigatório.</p>
-                }
-                @if (form.get('nome')?.hasError('minlength')) {
-                    <p class="error">O nome deve ter pelo menos 3 caracteres.</p>
-                }
-            </small>
-        }
+<div class="container py-5">
+  <h2 class="text-center mb-4">Cadastro de Pessoas</h2>
+
+  <form [formGroup]="form" class="mx-auto form-card" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="nome" class="form-label">Nome</label>
+      <input type="text" id="nome" class="form-control" formControlName="nome" placeholder="Digite seu nome" />
+
+      @if (form.get('nome')?.touched && form.get('nome')?.invalid) {
+        <div class="text-danger mt-1">
+          @if (form.get('nome')?.hasError('required')) {
+            <small>O nome é obrigatório.</small>
+          }
+          @if (form.get('nome')?.hasError('minlength')) {
+            <small>Mínimo 3 caracteres.</small>
+          }
+        </div>
+      }
     </div>
 
-    <label for="idade">Idade:</label>
-    <input type="number" formControlName="idade" id="idade" class="form-control" />
-    <div>
-        @if (form.get('idade')?.invalid && form.get('idade')?.touched) {
-            <small>
-                @if (form.get('idade')?.hasError('required')) {
-                    <p class="error">A idade é obrigatória.</p>
-                }
-                @if (form.get('idade')?.hasError('min')) {
-                    <p class="error">A idade deve ser maior que 0.</p>
-                }
-            </small>
-        }
+    <div class="mb-3">
+      <label for="idade" class="form-label">Idade</label>
+      <input type="number" id="idade" class="form-control" formControlName="idade" placeholder="Digite sua idade" />
+
+      @if (form.get('idade')?.touched && form.get('idade')?.invalid) {
+        <div class="text-danger mt-1">
+          @if (form.get('idade')?.hasError('required')) {
+            <small>A idade é obrigatória.</small>
+          }
+          @if (form.get('idade')?.hasError('min')) {
+            <small>A idade deve ser maior que 0.</small>
+          }
+        </div>
+      }
     </div>
 
-    <button type="submit" class="btn btn-lg btn-primary btn-block submitLogin" [disabled]="form.invalid">
-        {{ editIndex !== null ? 'Atualizar' : 'Adicionar'}}
-    </button>
+    <div class="d-grid gap-2">
+      <button type="submit" class="btn btn-success" [disabled]="form.invalid">
+        {{ editIndex !== null ? 'Atualizar' : 'Adicionar' }}
+      </button>
+    </div>
+  </form>
 
-</form>
-
-<h3 class="list-registers">Lista de Registros</h3>
-    <ul class="list-group list">
-        <li class="list-group-item" *ngFor="let item of dados; let i = index">
-                <span>{{ item.nome }} - {{ item.idade }} Anos</span>
-                <button class="btn btn-primary m-3" (click)="editar(i)">Editar</button>
-                <button class="btn btn-primary" (click)="excluir(i)">Excluir</button>
-        </li>
-    </ul>
+  <h3 class="mt-5 mb-3">Lista de Registros</h3>
+  <div class="row">
+    <div class="col-md-4 mb-3" *ngFor="let item of dados; let i = index">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">{{ item.nome }}</h5>
+          <p class="card-text">Idade: {{ item.idade }} anos</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+          <button class="btn btn-outline-primary btn-sm" (click)="editar(i)">✏️ Editar</button>
+          <button class="btn btn-outline-danger btn-sm" (click)="excluir(i)">🗑️ Excluir</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
