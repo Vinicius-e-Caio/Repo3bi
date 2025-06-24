@@ -1,0 +1,47 @@
+<form [formGroup]="form" class="form-signin" (ngSubmit)="onSubmit()">
+    <label for="nome" class="sr-only">Nome:</label>
+    <input type="text" formControlName="nome" id="nome" class="form-control"/>
+    <div>
+        @if (form.get('nome')?.invalid && form.get('nome')?.touched) {
+            <small>
+                @if (form.get('nome')?.hasError('required')) {
+                    <p class="error">O nome é obrigatório.</p>
+                }
+                @if (form.get('nome')?.hasError('minlength')) {
+                    <p class="error">O nome deve ter pelo menos 3 caracteres.</p>
+                }
+            </small>
+        }
+    </div>
+
+    <label for="idade">Idade:</label>
+    <input type="number" formControlName="idade" id="idade" class="form-control" />
+    <div>
+        @if (form.get('idade')?.invalid && form.get('idade')?.touched) {
+            <small>
+                @if (form.get('idade')?.hasError('required')) {
+                    <p class="error">A idade é obrigatória.</p>
+                }
+                @if (form.get('idade')?.hasError('min')) {
+                    <p class="error">A idade deve ser maior que 0.</p>
+                }
+            </small>
+        }
+    </div>
+
+    <button type="submit" class="btn btn-lg btn-primary btn-block submitLogin" [disabled]="form.invalid">
+        {{ editIndex !== null ? 'Atualizar' : 'Adicionar'}}
+    </button>
+
+</form>
+
+<h3 class="list-registers">Lista de Registros</h3>
+    <ul class="list-group list">
+        <li class="list-group-item">
+            @for (item of dados; track item) {
+                <span>{{ item.nome }} - {{ item.idade }}</span>
+                <button class="btn btn-primary m-3" (click)="editar(item)">Editar</button>
+                <button class="btn btn-primary" (click)="excluir(item)">Excluir</button>
+            }
+        </li>
+    </ul>

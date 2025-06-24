@@ -3,10 +3,12 @@ import { HeaderComponent } from "../header/header.component";
 import { FooterComponent } from "../footer/footer.component";
 import { LoginComponent } from "../login/login.component";
 import { CadastroComponent } from "../cadastro/cadastro.component";
+import { CardsFeaturesComponent } from "../cards-features/cards-features.component";
+import { FeaturesComponent } from "../features/features.component";
 
 @Component({
   selector: 'app-home',
-  imports: [HeaderComponent, FooterComponent, LoginComponent, CadastroComponent],
+  imports: [CadastroComponent, CardsFeaturesComponent, FeaturesComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
