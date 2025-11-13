@@ -1,0 +1,5 @@
+package br.com.etechas.tarefas.service;
+
+public class UsuarioBusiness {
+
+}

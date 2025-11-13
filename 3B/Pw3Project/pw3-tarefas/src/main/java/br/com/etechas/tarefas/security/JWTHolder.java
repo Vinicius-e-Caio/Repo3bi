@@ -12,4 +12,5 @@ public class JWTHolder {
 
     @Value("${jwt.expiration}")
     private Duration expiration;
+    
 }
