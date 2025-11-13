@@ -34,4 +34,8 @@ public class Tarefa {
     @Column(name = "tx_status")
     private StatusEnum status;
 
+    public boolean isPending(){
+        return getStatus().equals(StatusEnum.PENDENTE);
+    }
+
 }

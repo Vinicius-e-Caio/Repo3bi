@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SA.MainPage">
+
+    <ScrollView>
+
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label Text="Título" FontSize="Large" FontAttributes="Italic" />
+            <Border
+    Padding="0"
+    HorizontalOptions="Center">
+
+                <Image Source="usuario_de_perfil.png"
+                   x:Name="ImgUser"
+                   WidthRequest="80"
+                   HeightRequest="80" />
+            </Border>
+            <Label Text="Empty" FontSize="Medium" FontAttributes="None" HorizontalOptions="Center"/>
+
+            <StackLayout HorizontalOptions="Start" BackgroundColor="#e0f7fa" Padding="10" WidthRequest="200" HeightRequest="200">
+                <Label Text="Seção 1" FontSize="20" TextColor="Black" />
+                <Button Text="Botão 1" />
+            </StackLayout>
+        </VerticalStackLayout>
+
+        
+
+
+    </ScrollView>
+
+</ContentPage>

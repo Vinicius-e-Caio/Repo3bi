@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|d:\\viniecaio3bi\\repo3bi\\3b\\assimilacaoapp\\sa\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|d:\\viniecaio3bi\\repo3bi\\3b\\assimilacaoapp\\sa\\inventario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|solutionrelative:inventario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|d:\\viniecaio3bi\\repo3bi\\3b\\assimilacaoapp\\sa\\ficha.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|solutionrelative:ficha.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|d:\\viniecaio3bi\\repo3bi\\3b\\assimilacaoapp\\sa\\ficha.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|solutionrelative:ficha.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|d:\\viniecaio3bi\\repo3bi\\3b\\assimilacaoapp\\sa\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|solutionrelative:resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\NugetPackages\\microsoft.maui.resizetizer\\9.0.51\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|d:\\viniecaio3bi\\repo3bi\\3b\\assimilacaoapp\\sa\\sa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|solutionrelative:sa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|d:\\viniecaio3bi\\repo3bi\\3b\\assimilacaoapp\\sa\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|d:\\viniecaio3bi\\repo3bi\\3b\\assimilacaoapp\\sa\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|d:\\viniecaio3bi\\repo3bi\\3b\\assimilacaoapp\\sa\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|d:\\viniecaio3bi\\repo3bi\\3b\\assimilacaoapp\\sa\\rolagem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3FB7BF7D-3622-4274-ADD4-6E07E6948FE2}|SA.csproj|solutionrelative:rolagem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inventario.xaml",
+              "DocumentMoniker": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\Inventario.xaml",
+              "RelativeDocumentMoniker": "Inventario.xaml",
+              "ToolTip": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\Inventario.xaml",
+              "RelativeToolTip": "Inventario.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-28T20:13:23.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-28T19:54:04.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ficha.xaml",
+              "DocumentMoniker": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\Ficha.xaml",
+              "RelativeDocumentMoniker": "Ficha.xaml",
+              "ToolTip": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\Ficha.xaml",
+              "RelativeToolTip": "Ficha.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-28T20:15:05.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
+              "ToolTip": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Styles.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-18T20:12:08.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ficha.xaml.cs",
+              "DocumentMoniker": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\Ficha.xaml.cs",
+              "RelativeDocumentMoniker": "Ficha.xaml.cs",
+              "ToolTip": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\Ficha.xaml.cs",
+              "RelativeToolTip": "Ficha.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T20:12:37.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SA.csproj",
+              "DocumentMoniker": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\SA.csproj",
+              "RelativeDocumentMoniker": "SA.csproj",
+              "ToolTip": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\SA.csproj",
+              "RelativeToolTip": "SA.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-28T19:56:28.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-28T19:43:53.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAwPDw8PLwnwAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:43:11.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "D:\\NugetPackages\\microsoft.maui.resizetizer\\9.0.51\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\NugetPackages\\microsoft.maui.resizetizer\\9.0.51\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "D:\\NugetPackages\\microsoft.maui.resizetizer\\9.0.51\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\NugetPackages\\microsoft.maui.resizetizer\\9.0.51\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AgIAAGICAAAAAAAAAAAcwHECAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-08-28T19:38:55.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-28T19:16:50.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Rolagem.xaml",
+              "DocumentMoniker": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\Rolagem.xaml",
+              "RelativeDocumentMoniker": "Rolagem.xaml",
+              "ToolTip": "D:\\VinieCaio3BI\\Repo3bi\\3B\\AssimilacaoAPP\\SA\\Rolagem.xaml",
+              "RelativeToolTip": "Rolagem.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-28T19:57:56.193Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
